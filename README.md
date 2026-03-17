@@ -25,7 +25,7 @@ timoni build myapp . -n creative-studio
 **2. Dev Overlay Configuration**
 Run this from inside the `myapp` directory (notice the `-f` pointing to the external values file):
 ```sh
-timoni build myapp-dev . -f ..\values-dev.cue -n creative-studio
+timoni build myapp-dev . -f values-dev.cue -n creative-studio
 ```
 
 ## Applying to the Cluster
@@ -39,7 +39,7 @@ timoni apply myapp . -n creative-studio
 
 **2. Dev Overlay**
 ```sh
-timoni apply myapp-dev . -f ..\values-dev.cue -n creative-studio
+timoni apply myapp-dev . -f values-dev.cue -n creative-studio
 ```
 
 ## Exploring Values
