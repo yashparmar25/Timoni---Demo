@@ -12,8 +12,8 @@ values: {
 	message: "Creative Studio App"
 	replicas: 2
 	image: {
-		repository: "yashparmar2055/frontend-doctorapp"
-		digest:     ""
+		repository: "demo.goharbor.io/creative-studio/creative-studio"
+		digest:     "sha256:eb6c829029d7d1634d61287b6d83eeb32f58998e6aad55cdeb198de27aef39e7"
 		tag:        ""
 	}
 	imagePullSecrets: [
